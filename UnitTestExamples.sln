@@ -3,8 +3,32 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "net461", "net461", "{EAF22E46-37DB-4661-B0A9-B74664685850}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net461.domain", "net461\net461.domain\net461.domain.csproj", "{018906BB-1FC5-4CA3-A014-A2055FD13EFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net461.domain.moq.tests", "net461\net461.domain.moq.tests\net461.domain.moq.tests.csproj", "{80EA8130-1BA0-41B8-A22B-B93F34C69582}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{018906BB-1FC5-4CA3-A014-A2055FD13EFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018906BB-1FC5-4CA3-A014-A2055FD13EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018906BB-1FC5-4CA3-A014-A2055FD13EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018906BB-1FC5-4CA3-A014-A2055FD13EFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80EA8130-1BA0-41B8-A22B-B93F34C69582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80EA8130-1BA0-41B8-A22B-B93F34C69582}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80EA8130-1BA0-41B8-A22B-B93F34C69582}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80EA8130-1BA0-41B8-A22B-B93F34C69582}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{018906BB-1FC5-4CA3-A014-A2055FD13EFE} = {EAF22E46-37DB-4661-B0A9-B74664685850}
+		{80EA8130-1BA0-41B8-A22B-B93F34C69582} = {EAF22E46-37DB-4661-B0A9-B74664685850}
 	EndGlobalSection
 EndGlobal
