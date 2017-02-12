@@ -15,6 +15,8 @@ Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "netcore.domain", "netcore\n
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "netcore.domain.moq.tests", "netcore\netcore.domain.moq.tests\netcore.domain.moq.tests.xproj", "{459565B0-BA75-404D-9E39-5433C696BDF5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "net461.domain.nsubstitute.tests", "net461\net461.domain.nsubstitute.tests\net461.domain.nsubstitute.tests.csproj", "{57B6694E-A24D-426B-AC9E-EA2B060B3B8C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{459565B0-BA75-404D-9E39-5433C696BDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{459565B0-BA75-404D-9E39-5433C696BDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{459565B0-BA75-404D-9E39-5433C696BDF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B6694E-A24D-426B-AC9E-EA2B060B3B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B6694E-A24D-426B-AC9E-EA2B060B3B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B6694E-A24D-426B-AC9E-EA2B060B3B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B6694E-A24D-426B-AC9E-EA2B060B3B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{80EA8130-1BA0-41B8-A22B-B93F34C69582} = {EAF22E46-37DB-4661-B0A9-B74664685850}
 		{47E390B8-F58A-49DB-A102-C4419374E30B} = {14F62DBD-3517-4B0D-9C73-38093F9260DA}
 		{459565B0-BA75-404D-9E39-5433C696BDF5} = {14F62DBD-3517-4B0D-9C73-38093F9260DA}
+		{57B6694E-A24D-426B-AC9E-EA2B060B3B8C} = {EAF22E46-37DB-4661-B0A9-B74664685850}
 	EndGlobalSection
 EndGlobal
