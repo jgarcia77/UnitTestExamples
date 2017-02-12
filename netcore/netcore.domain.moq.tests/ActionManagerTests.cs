@@ -1,4 +1,4 @@
-﻿namespace netcore.domain.xunit.tests
+﻿namespace netcore.domain.moq.tests
 {
     using System;
     using Xunit;

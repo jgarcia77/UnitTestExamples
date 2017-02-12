@@ -13,7 +13,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "netcore", "netcore", "{14F6
 EndProject
 Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "netcore.domain", "netcore\netcore.domain\netcore.domain.xproj", "{47E390B8-F58A-49DB-A102-C4419374E30B}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "netcore.domain.xunit.tests", "netcore\netcore.domain.xunit.tests\netcore.domain.xunit.tests.xproj", "{CE25AA66-1D80-46F2-A0E7-987E55F77B72}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "netcore.domain.moq.tests", "netcore\netcore.domain.moq.tests\netcore.domain.moq.tests.xproj", "{459565B0-BA75-404D-9E39-5433C696BDF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,10 +33,10 @@ Global
 		{47E390B8-F58A-49DB-A102-C4419374E30B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{47E390B8-F58A-49DB-A102-C4419374E30B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{47E390B8-F58A-49DB-A102-C4419374E30B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE25AA66-1D80-46F2-A0E7-987E55F77B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE25AA66-1D80-46F2-A0E7-987E55F77B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE25AA66-1D80-46F2-A0E7-987E55F77B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE25AA66-1D80-46F2-A0E7-987E55F77B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{459565B0-BA75-404D-9E39-5433C696BDF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{459565B0-BA75-404D-9E39-5433C696BDF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{459565B0-BA75-404D-9E39-5433C696BDF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{459565B0-BA75-404D-9E39-5433C696BDF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -45,6 +45,6 @@ Global
 		{018906BB-1FC5-4CA3-A014-A2055FD13EFE} = {EAF22E46-37DB-4661-B0A9-B74664685850}
 		{80EA8130-1BA0-41B8-A22B-B93F34C69582} = {EAF22E46-37DB-4661-B0A9-B74664685850}
 		{47E390B8-F58A-49DB-A102-C4419374E30B} = {14F62DBD-3517-4B0D-9C73-38093F9260DA}
-		{CE25AA66-1D80-46F2-A0E7-987E55F77B72} = {14F62DBD-3517-4B0D-9C73-38093F9260DA}
+		{459565B0-BA75-404D-9E39-5433C696BDF5} = {14F62DBD-3517-4B0D-9C73-38093F9260DA}
 	EndGlobalSection
 EndGlobal
